@@ -1,2 +1,0 @@
-# exam19
-maket
