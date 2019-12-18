@@ -76,6 +76,7 @@ h6 {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  padding: 2rem 0;
 }
 
 .label__menu {
@@ -133,7 +134,8 @@ h6 {
 
 .body__block1 {
   text-align: center;
-  padding: 5rem 0rem;
+  padding: 7rem 0rem;
+  background: #ccc;
 }
 
 .body__title {
@@ -149,11 +151,10 @@ h6 {
 }
 
 .body__block2 {
+  padding: 15rem 0 2rem 2rem;
   display: flex;
   box-sizing: border-box;
-  background: #ccc;
-  padding: 0 2rem;
-
+  background: #fff;
 }
 
 .block1 {
@@ -187,7 +188,7 @@ h6 {
 .body__block3 {
   display: flex;
   background: #fafafa;
-  padding: 3rem 0rem;
+  padding: 7rem 0rem;
 }
 
 .block4 {
@@ -210,7 +211,7 @@ h6 {
 
 .body__block4 {
   display: flex;
-  padding: 5rem 0rem;
+  padding: 10rem 0rem;
 }
 
 .block5 {
