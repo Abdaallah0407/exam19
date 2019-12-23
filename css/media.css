@@ -5,7 +5,6 @@
 .nav label.label__menu {
     display: none;
     padding: 15px 40px;
-    text-transform: uppercase;
     font-size: 14px;
     cursor: pointer;
     position: relative;
@@ -18,30 +17,56 @@
     font-size: 18px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
+    /* .bg-light {
+        background: #fff;
+    } */
+
+    .show .nav__link {
+        background: #ffff;
+        color: #000;
+    }
+
+    .img__header {
+        width: 60%;
+    }
+
+    .navbar .show .nav__link {
+        background: #fff;
+    }
+
+    /* .navbar-toggler:not(.collapsed) {
+        background: #000;
+    } */
+
     .header {
-        height: 50vh;
+        height: 80vh;
     }
 
     .header:before,
     .header:after {
-        height: 70vh;
+        height: 128vh;
+    }
+
+    .header:before {
+        left: 80px;
+        top: 10px;
     }
 
     .header:after {
-        left: -180px;
-        top: -50px;
+        left: -120px;
+        top: -40px;
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     .container {
         margin: 0 auto;
     }
 
     .header:before,
     .header:after {
-        height: 70vh;
+        height: 110vh;
     }
 
     .header:after {
@@ -68,6 +93,11 @@
 
     .nav label.label__menu {
         display: block;
+
+    }
+
+    .fa {
+        margin-left: 2rem;
     }
 
     .head {
@@ -75,7 +105,7 @@
     }
 
     .header {
-        height: 50vh;
+        height: 103vh;
     }
 
     /* .header:before,
@@ -89,8 +119,8 @@
         color: #000;
     }
 
-
     input.input__menu:checked~ul {
+        padding: 10px;
         display: block;
         background: #ffff;
         color: red;
@@ -144,7 +174,6 @@
 
 
 }
-
 
 @media screen and (max-width: 640px) {
     .container {
@@ -207,19 +236,15 @@
 
 }
 
-@media screen and (max-width: 480px) {
-    .container {
-        margin: 0 auto;
-    }
-
+@media screen and (max-width: 568px) {
     .header:before,
     .header:after {
-        height: 51vh;
+        height: 75vh;
     }
 
     .header:after {
-        left: -150px;
-        top: -50px;
+        left: -50px;
+        top: -30px;
     }
 
     .nav {
@@ -230,7 +255,116 @@
         height: 50vh;
     }
 
+    .navbar-toggler {
+        position: relative;
+        left: 80px;
+    }
 
+    .nav__link {
+        position: relative;
+        left: 80px;
+    }
+
+    .show .nav__link {
+        background: #ffff;
+        color: #000;
+    }
+
+    .body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .body__block1 {
+        margin: 18rem 0;
+    }
+
+    .body__block2 {
+        text-align: center;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .img__block2 {
+        position: static;
+    }
+
+    .body__block3 {
+        text-align: center;
+    }
+
+
+    .body__block4 {
+        text-align: center;
+
+    }
+
+    .block5 {
+        margin: 0;
+    }
+
+    .block6__images {
+        margin: 0;
+    }
+
+    .img__header {
+        width: 70%;
+        top: calc(225% - 400px);
+    }
+
+    .logo {
+        position: relative;
+        top: 0;
+        left: -60px;
+    }
+
+    .block1 {
+        width: 100%;
+    }
+
+    .block4 {
+        width: 100%;
+    }
+
+    .block5 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .header:before,
+    .header:after {
+        height: 69vh;
+    }
+
+    .header:after {
+        left: -50px;
+        top: -30px;
+    }
+
+    .nav {
+        margin-left: 3rem;
+    }
+
+    .header {
+        height: 50vh;
+    }
+
+    .navbar-toggler {
+        position: relative;
+        left: 80px;
+    }
+
+    .nav__link {
+        position: relative;
+        left: 80px;
+    }
+
+    .show .nav__link {
+        background: #ffff;
+        color: #000;
+    }
 
     .body {
         margin: 0;
@@ -263,5 +397,71 @@
 
     .block6__images {
         margin: 0;
+    }
+
+    .img__header {
+        width: 70%;
+        top: calc(225% - 400px);
+    }
+
+    .logo {
+        position: relative;
+        top: 0;
+        left: -60px;
+    }
+
+    .block1 {
+        width: 100%;
+    }
+
+    .block4 {
+        width: 100%;
+    }
+
+    .block5 {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+
+
+    .header:before,
+    .header:after {
+        height: 70vh;
+    }
+
+    .header:after {
+        left: -60px;
+        top: -20px;
+    }
+
+    .header {
+        height: 50vh;
+    }
+
+
+    .img__header {
+        width: 70%;
+        top: calc(220% - 400px);
+    }
+
+    .logo {
+        position: relative;
+        top: 0;
+        left: -60px;
+    }
+
+    .block1 {
+        width: 100%;
+    }
+
+    .block4 {
+        width: 100%;
+    }
+
+    .block5 {
+        width: 100%;
     }
 }

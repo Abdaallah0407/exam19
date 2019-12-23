@@ -52,7 +52,7 @@ h6 {
   position: absolute;
   width: 100%;
   left: 30px;
-  height: 110vh;
+  height: 108vh;
   border-radius: 70px;
   transform: rotate(-18.93deg) translateY(40px);
   background: #1b264b;
@@ -85,22 +85,21 @@ h6 {
   font-weight: 600;
 }
 
-.nav__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.bg-light {
+  background: none;
+
 }
 
-.nav__item {
+.nav__link {
   color: #ffffff;
-  margin-left: 1rem;
+  text-align: center;
   font-family: Nunito;
   font-style: normal;
   font-weight: 600;
-  padding: 5px;
+  /* padding: 5px; */
 }
 
-.nav__item:hover {
+.nav-link:hover {
   color: #1b264b;
   background: #ffff;
   border-color: #fff;
@@ -153,8 +152,10 @@ h6 {
 .body__block2 {
   padding: 15rem 0 2rem 2rem;
   display: flex;
+  text-align: center;
   box-sizing: border-box;
   background: #fff;
+  box-sizing: border-box;
 }
 
 .block1 {
