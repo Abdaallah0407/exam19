@@ -78,9 +78,6 @@
     overflow: hidden;
   }
 
-  .nav ul {
-    display: none;
-  }
 
   .nav li {
     color: #000;
@@ -99,9 +96,6 @@
     margin-left: 2rem;
   }
 
-  .head {
-    padding: 0 100px;
-  }
 
   .header {
     height: 103vh;
@@ -112,12 +106,12 @@
         height: 500px;
     } */
 
-  input.input__menu:checked + label.label__menu {
+  input.input__menu:checked+label.label__menu {
     background: #ffff;
     color: #000;
   }
 
-  input.input__menu:checked ~ ul {
+  input.input__menu:checked~ul {
     padding: 10px;
     display: block;
     background: #ffff;
@@ -227,6 +221,7 @@
 }
 
 @media screen and (max-width: 568px) {
+
   .header:before,
   .header:after {
     height: 75vh;
@@ -252,7 +247,7 @@
 
   .nav__link {
     position: relative;
-    left: 80px;
+
   }
 
   .show .nav__link {
@@ -303,7 +298,7 @@
   .logo {
     position: relative;
     top: 0;
-    left: -60px;
+    left: 20px;
   }
 
   .block1 {
@@ -320,6 +315,7 @@
 }
 
 @media screen and (max-width: 480px) {
+
   .header:before,
   .header:after {
     height: 69vh;
@@ -345,7 +341,6 @@
 
   .nav__link {
     position: relative;
-    left: 80px;
   }
 
   .show .nav__link {
@@ -392,7 +387,7 @@
   .logo {
     position: relative;
     top: 0;
-    left: -60px;
+    left: 30px;
   }
 
   .block1 {
@@ -409,6 +404,7 @@
 }
 
 @media screen and (max-width: 320px) {
+
   .header:before,
   .header:after {
     height: 70vh;
@@ -431,21 +427,25 @@
   .logo {
     position: relative;
     top: 0;
-    left: -60px;
+    left: 20px;
   }
+
   .navbar-toggler {
     position: relative;
     left: 10px;
   }
-  .nav__link {
+
+  /* .nav__link {
     position: relative;
     left: 10px;
     padding: 5px 200px;
-  }
+  } */
+
   .show .nav__link {
     /* background: #ffff; */
     color: #000;
   }
+
   .block1 {
     width: 100%;
   }
