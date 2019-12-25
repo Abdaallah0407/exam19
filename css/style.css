@@ -48,7 +48,7 @@ h6 {
 
 .header:before,
 .header:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   left: 30px;
@@ -85,15 +85,12 @@ h6 {
   font-weight: 600;
 }
 
-
 .nav__list {
   display: flex;
   margin: 0;
   padding: 0;
-  list-style-type: none
+  list-style-type: none;
 }
-
-
 
 .nav__link {
   font-family: Nunito;
@@ -107,9 +104,9 @@ h6 {
 }
 
 .nav__link:hover {
-  color: #1B264B;
+  color: #1b264b;
   border: 1px solid #fff;
-  background: #FDFFFC;
+  background: #fdfffc;
   border-radius: 4px;
 }
 
@@ -201,7 +198,7 @@ h6 {
 
 .body__block3 {
   display: flex;
-  background: #fafafa;
+  background: #ffffff;
   padding: 7rem 0rem;
 }
 
